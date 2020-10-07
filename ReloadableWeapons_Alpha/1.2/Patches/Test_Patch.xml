@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+				<Operation Class="PatchOperationAdd">
+					<xpath>*/ThingDef[defName = "Gun_Revolver"]</xpath>
+					<value>
+					<comps>
+					  <li Class="CompProperties_Reloadable">
+						<maxCharges>6</maxCharges>
+						<ammoDef>Steel</ammoDef>
+						<ammoCountToRefill>1</ammoCountToRefill>
+						<baseReloadTicks>60</baseReloadTicks>
+						<soundReload>Standard_Reload</soundReload>
+						<hotKey>Misc4</hotKey>
+						<chargeNoun>rounds</chargeNoun>
+						<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+						<displayGizmoWhileDrafted>true</displayGizmoWhileDrafted>
+					  </li>
+					  </comps>
+					</value>
+				</Operation>
+</Patch>
