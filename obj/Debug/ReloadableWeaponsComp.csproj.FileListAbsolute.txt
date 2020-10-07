@@ -1,0 +1,6 @@
+C:\Users\bmyroup\source\repos\ReloadableWeaponsComp\ReloadableWeaponsComp\bin\Debug\ReloadableWeaponsComp.dll
+C:\Users\bmyroup\source\repos\ReloadableWeaponsComp\ReloadableWeaponsComp\bin\Debug\ReloadableWeaponsComp.pdb
+C:\Users\bmyroup\source\repos\ReloadableWeaponsComp\ReloadableWeaponsComp\obj\Debug\ReloadableWeaponsComp.csproj.CoreCompileInputs.cache
+C:\Users\bmyroup\source\repos\ReloadableWeaponsComp\ReloadableWeaponsComp\obj\Debug\ReloadableWeaponsComp.dll
+C:\Users\bmyroup\source\repos\ReloadableWeaponsComp\ReloadableWeaponsComp\obj\Debug\ReloadableWeaponsComp.pdb
+C:\Users\bmyroup\source\repos\ReloadableWeaponsComp\ReloadableWeaponsComp\obj\Debug\ReloadableWeaponsComp.csprojAssemblyReference.cache
