@@ -34,4 +34,19 @@ namespace FrauDecon
             __result = null;
             }
         }
+    [HarmonyPatch(typeof(ReloadableUtility), "WearerOf")]
+    static class Patch_ReloadableUtility_WearerOf
+    {
+        static void Postfix(ref Pawn __result, ref CompReloadable comp)
+        {
+            Pawn_EquipmentTracker pawn_EquipmentTracker = comp.ParentHolder as Pawn_EquipmentTracker;
+            if (pawn_EquipmentTracker != null)
+            {
+                Log.Message("WearerOf");
+                __result = pawn_EquipmentTracker.pawn;
+            }
+            Log.Message("not WearerOf");
+            __result = null;
+        }
     }
+}
